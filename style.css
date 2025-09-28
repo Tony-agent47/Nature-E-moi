@@ -2,18 +2,18 @@
 
     @font-face{
     font-family: "Poppins";
-    src: url(../Poppins/Poppins-Medium.ttf);
+    src: url(/Poppins-Medium.ttf);
     
 }
 
  @font-face{
     font-family: "Poppins-2";
-    src: url(../Poppins/Poppins-MediumItalic.ttf);
+    src: url(/Poppins-MediumItalic.ttf);
 }
 
 @font-face {
     font-family: "Poppins-3";
-    src: url(../Poppins/Poppins-Black.ttf);
+    src: url(/Poppins-Black.ttf);
 }
 
 html{
@@ -441,6 +441,7 @@ display: none;
     Margin-top : 0 ;
   }
 }
+
 
 
 
