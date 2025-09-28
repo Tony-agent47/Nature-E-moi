@@ -29,7 +29,7 @@ body{
 }
 
  #head{
-    background: url(/images/bg.jpg) no-repeat fixed;
+    background: url(images/bg.jpg) no-repeat fixed;
     background-size: cover;
     height: 500px;
 }
@@ -441,6 +441,7 @@ display: none;
     Margin-top : 0 ;
   }
 }
+
 
 
 
