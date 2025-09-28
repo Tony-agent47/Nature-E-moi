@@ -64,7 +64,7 @@ li,a{
     padding-left: px;
     
     height: 23px;
-    color: #092601;
+    color: white;
     transition: all 100ms;
 }
 
@@ -445,6 +445,7 @@ display: none;
     Margin-top : 0 ;
   }
 }
+
 
 
 
