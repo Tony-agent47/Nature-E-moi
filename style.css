@@ -29,7 +29,7 @@ body{
 }
 
  #head{
-    background: url(../Flowers/images/bg.jpg) no-repeat fixed;
+    background: url(/images/bg.jpg) no-repeat fixed;
     background-size: cover;
     height: 500px;
 }
@@ -170,25 +170,25 @@ a:hover {
  }
 
  .cadre_1{
-    background: url(../Flowers/images/nos_meilleures_ventes/1.jpg)no-repeat;
+    background: url(/images/nos_meilleures_ventes/1.jpg)no-repeat;
     background-size: cover;
     background-position:center
  }
 
  .cadre_2{
-    background: url(../Flowers/images/nos_meilleures_ventes/2.jpg);
+    background: url(/images/nos_meilleures_ventes/2.jpg);
     background-size: cover;
     background-position:center
  }
 
  .cadre_3{
-    background: url(../Flowers/images/nos_meilleures_ventes/3.jpg);
+    background: url(/images/nos_meilleures_ventes/3.jpg);
     background-size: cover;
     background-position:center
  }
 
  .cadre_4{
-    background: url(../Flowers/images/nos_meilleures_ventes/4.jpg);
+    background: url(/images/nos_meilleures_ventes/4.jpg);
     background-size: cover;
     background-position:center
  }
@@ -245,7 +245,7 @@ a:hover {
  }
 
  .grid_1{
-   background: url(../Flowers/images/nos_plantes/1.jpg)no-repeat;
+   background: url(/images/nos_plantes/1.jpg)no-repeat;
    background-size: cover;
    background-position: center;
    grid-column: 1/3;
@@ -253,21 +253,21 @@ a:hover {
  }
 
  .grid_2{
-  background: url(../Flowers/images/nos_plantes/2.jpg)no-repeat;
+  background: url(/images/nos_plantes/2.jpg)no-repeat;
   background-size: cover;
   background-position: center;
   grid-column: 3/5;
  }
 
  .grid_3{
-  background: url(../Flowers/images/nos_plantes/3.jpg)no-repeat;
+  background: url(/images/nos_plantes/3.jpg)no-repeat;
   background-size: cover;
   background-position: center;
   grid-column: 3/5;
  }
 
  .grid_4{
-  background: url(../Flowers/images/nos_plantes/4.jpg)no-repeat;
+  background: url(/images/nos_plantes/4.jpg)no-repeat;
   background-size: cover;
   background-position: center;
   grid-column: 1;
@@ -275,7 +275,7 @@ a:hover {
  }
 
  .grid_5{
-  background: url(../Flowers/images/nos_plantes/5.jpg)no-repeat;
+  background: url(/images/nos_plantes/5.jpg)no-repeat;
   background-size: cover;
   background-position: center;
   grid-column: 2/4;
@@ -283,7 +283,7 @@ a:hover {
  }
 
  .grid_6{
-  background: url(../Flowers/images/nos_plantes/6.jpg)no-repeat;
+  background: url(/images/nos_plantes/6.jpg)no-repeat;
   background-size: cover;
   background-position: center;
   grid-column: 4;
@@ -441,6 +441,7 @@ display: none;
     Margin-top : 0 ;
   }
 }
+
 
 
 
