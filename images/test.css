@@ -1,0 +1,164 @@
+
+/*
+    @font-face{
+    font-family: "Poppins";
+    src: url(../Poppins/Poppins-Medium.ttf);
+    }
+    
+ @font-face{
+    font-family: "Poppins-2";
+    src: url(../Poppins/Poppins-MediumItalic.ttf);
+}
+
+    body{
+        font-family: "Poppins";
+    }
+
+.grid{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+ .cadre_1,.cadre_2,.cadre_3,.cadre_4{
+    width: 300px;
+    height: 350px;
+    
+ }
+
+ .cadre_1{
+    background: url(/Flowers/images/nos_meilleures_ventes/1.jpg)no-repeat;
+    background-size: cover;
+    background-position:center
+ }
+
+ .cadre_2{
+    background: url(/Flowers/images/nos_meilleures_ventes/2.jpg);
+    background-size: cover;
+    background-position:center
+ }
+
+ .cadre_3{
+    background: url(/Flowers/images/nos_meilleures_ventes/3.jpg);
+    background-size: cover;
+    background-position:center
+ }
+
+ .cadre_4{
+    background: url(/Flowers/images/nos_meilleures_ventes/4.jpg);
+    background-size: cover;
+    background-position:center
+ }
+
+ .infos{
+    display: flex;
+    margin-top: 281.9px;
+    background-color: #FFFFFFDF;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+ }
+
+.text{
+    
+}
+
+ button{
+    width: 100px;
+    border-radius: 14px;
+    border-color: #add981;
+    border: 4px;
+    cursor: pointer;
+    transition: all 500ms;
+    height: 30px;
+    font-family: "Poppins";
+    color: whitesmoke;
+    background-color:#add981;
+    margin-top: 20px;
+ }
+
+ button:hover{
+    background-color: #98bf0a;
+ }*/
+ *{
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+
+   .icons{
+   
+   }
+
+    nav ul{
+        flex-direction: column;
+        display: flex;
+        backdrop-filter: blur(15px);
+        position: absolute;
+        top: 0;
+        
+        z-index: 1;
+        right: 2000px;
+        width: 300px;
+        justify-content: center;
+        transition: all .5s ease;
+
+    }
+    
+    ul li{
+        padding: 28px;
+    }
+
+    li a{
+        color: whitesmoke;
+        justify-content: space-between;
+    }
+
+    /*checkbox*/
+
+    #check{
+        display: none;
+    }
+
+    #check:checked ~ nav ul{
+        right: -120px;
+        position: fixed;
+    }
+
+    /*icon*/
+#burger{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    z-index: 2;
+    position: fixed;
+    margin-top: 25px;
+    font-size: 40px;
+    
+    cursor: pointer;
+}
+
+/*text*/
+
+.speech{
+    font-size: 50px;
+    padding-left: 0px;
+    position: relative;
+    
+    bottom: -50px;
+    padding-right: 20px;
+}
+
+.text1{
+    margin-right: 100px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: -110px;
+   
+}
+
+.best{
+    width: 250px;
+}
+ }

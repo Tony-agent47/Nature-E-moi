@@ -1,0 +1,447 @@
+
+
+    @font-face{
+    font-family: "Poppins";
+    src: url(../Poppins/Poppins-Medium.ttf);
+    
+}
+
+ @font-face{
+    font-family: "Poppins-2";
+    src: url(../Poppins/Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-3";
+    src: url(../Poppins/Poppins-Black.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    /*padding: 20px;*/
+    scroll-behavior: smooth;
+    font-family: "Poppins";
+    
+}
+
+ #head{
+    background: url(../Flowers/images/bg.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+.logo{
+    margin-left: 40px;
+   
+}
+
+.menu{
+    display: flex;
+    padding-top: 15px ;
+    justify-content: space-between;
+     
+}
+
+nav,ul{
+   display: flex;
+} 
+
+li,a{
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    justify-items: center;
+    align-items: center;
+    margin-right: 18px;
+    padding-left: px;
+    
+    height: 23px;
+    color: #092601;
+    transition: all 100ms;
+}
+
+#burger{
+    
+}
+
+#scroll{
+    color: whitesmoke !important;
+    text-decoration: none;
+}
+
+#scroll:hover{
+    border: none !important;
+    font-size: 600;
+}
+
+a:hover {
+  
+    font-weight: bold;
+    scroll-behavior: smooth !important;
+    border-bottom: 3px solid #add981;
+    font-size: 20px;
+}
+
+.speech{
+    font-size: 70px;
+    font-family: "Poppins-2";
+    color: whitesmoke;
+    margin-left: 49px;
+    height: 80px;
+    margin-top: -50px;
+    padding-bottom: 15px;
+     
+}
+
+.text1{
+    margin-bottom: -9px;
+    margin-left: 110px;
+    color: whitesmoke;
+}
+
+.scroll{
+    font-size: 15px;
+    margin-top: 160px;
+    margin-left: 40px;
+    
+}
+
+/*icons*/
+
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  
+  margin: 11px;
+}
+
+.icons_2{
+     color: #558c03;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+
+    .icons_3{
+        font-weight: 600;
+        width: 200px;
+        text-align: center;
+    }
+
+    /*best*/
+
+   .best{
+       margin: 30px;
+   }
+
+    h4{
+        font-family: "Poppins-3";
+        font-size: 50px;
+        font-weight: 100;
+        position: relative;
+    }
+
+    h4::before{
+        content: "";
+        position: absolute;
+        background-color: #558c03;
+        width: 50px;
+        height: 7px;
+        bottom: 0;
+    }
+
+    
+.grid{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+ .cadre_1,.cadre_2,.cadre_3,.cadre_4{
+    width: 300px;
+    
+    height: 350px;
+    border-radius: 4px;
+    
+ }
+
+ .cadre_1{
+    background: url(../Flowers/images/nos_meilleures_ventes/1.jpg)no-repeat;
+    background-size: cover;
+    background-position:center
+ }
+
+ .cadre_2{
+    background: url(../Flowers/images/nos_meilleures_ventes/2.jpg);
+    background-size: cover;
+    background-position:center
+ }
+
+ .cadre_3{
+    background: url(../Flowers/images/nos_meilleures_ventes/3.jpg);
+    background-size: cover;
+    background-position:center
+ }
+
+ .cadre_4{
+    background: url(../Flowers/images/nos_meilleures_ventes/4.jpg);
+    background-size: cover;
+    background-position:center
+ }
+
+ .infos{
+    display: flex;
+    margin-top: 281.9px;
+    background-color: #FFFFFFDF;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+ }
+
+ button{
+    width: 100px;
+    border-radius: 14px;
+    border-color: #add981;
+    border: 4px;
+    cursor: pointer;
+    transition: all 500ms;
+    height: 30px;
+    font-family: "Poppins";
+    color: whitesmoke;
+    background-color:#add981;
+    margin-top: 20px;
+ }
+
+ button:hover{
+    background-color: #98bf0a;
+ }
+
+ /*nos plantes*/
+
+ .all-plants{
+    margin-left: 15px;
+    margin-right: 15px;
+    
+ }
+
+.plant-grid{
+    display: grid;
+    
+    height: 350px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,400px);
+    
+}
+
+ .grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6 {
+   margin: 5px;
+   box-shadow: 0px 4px 4px #0c0c0b;
+   border-radius: 4px;
+ }
+
+ .grid_1{
+   background: url(../Flowers/images/nos_plantes/1.jpg)no-repeat;
+   background-size: cover;
+   background-position: center;
+   grid-column: 1/3;
+   grid-row: 1/3;
+ }
+
+ .grid_2{
+  background: url(../Flowers/images/nos_plantes/2.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: 3/5;
+ }
+
+ .grid_3{
+  background: url(../Flowers/images/nos_plantes/3.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: 3/5;
+ }
+
+ .grid_4{
+  background: url(../Flowers/images/nos_plantes/4.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: 1;
+  grid-row: 3/5;
+ }
+
+ .grid_5{
+  background: url(../Flowers/images/nos_plantes/5.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: 2/4;
+  grid-row: 3/5;
+ }
+
+ .grid_6{
+  background: url(../Flowers/images/nos_plantes/6.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: 4;
+  grid-row: 3/5;
+ }
+
+ /*footer*/
+
+ footer{
+    display: flex;
+    align-items: center;
+    margin: 20px 100px;
+    margin-top: 1400px;
+    justify-content: space-between;
+    font-weight: 600;
+ }
+
+ footer a.cgv{
+    text-decoration: none;
+    color: black;
+    
+ }
+
+ #chevron{
+    font-size: 40px;
+    color: #98bf0a;
+    transition: all 400ms;
+    margin-top: -90px;
+    border: none;
+     
+ }
+
+ #chevron:hover{
+    font-size: 50px;
+    scroll-behavior: smooth !important;
+    border: none !important;
+    cursor: pointer;
+ }
+
+ /*responsive*/
+
+ 
+/* Responsive Design pour smartphones (426px et moins) */
+@media (max-width : 426px) {
+  
+  /* HEADER */
+  #head {
+    Height : auto ;
+    Padding-bottom : 40px ;
+  }
+
+  .speech {
+    Font-size : 32px ; /* réduit */
+    Margin : 10px ;
+    Text-align : center ;
+  }
+
+  .text1 {
+    Margin : 15px ;
+    Font-size : 14px ;
+    Text-align : justify ;
+  }
+
+  /* MENU */
+  Nav ul {
+   
+    
+display: none; /* caché par défaut */
+  }
+
+  Nav ul li {
+    
+  }
+
+#check{
+display: none;
+}
+
+  #check :checked ~ nav ul {
+    Top : -16px ;
+    transition: all .5s ease;
+    
+    
+    border-radius: 1px 0px 10px 10px;
+    margin-left: 224px;
+    Width : 200px ;
+    backdrop-filter: blur(10px);*/
+    align-items: center;
+    Flex-direction : column ;
+    display: flex; /* affiché quand burger est cliqué */
+  }
+
+  #burger {
+    Font-size : 30px ;
+    Margin-right : 20px ;
+    position: relative;
+    left: 59px;
+    position: fixed;
+    top: 29px;
+    margin-left: 319px;
+    z-index: 1;
+    
+    Cursor : pointer ;
+    Display : block ;
+  }
+
+  /* ICONS */
+  .icons {
+    Flex-direction : column ;
+    Gap : 15px ;
+  }
+
+  /* BEST */
+  .grid {
+    Flex-direction : column ;
+    Align-items : center ;
+  }
+
+  .cadre_1, .cadre_2, .cadre_3, .cadre_4 {
+    Width : 90% ;
+    Height : 350px ;
+       background-size: cover;
+    background-position: center;
+    Margin-bottom : 20px ;
+  }
+
+  /* ALL PLANTS */
+  .plant-grid {
+    Grid-template-columns : 1fr ;
+    Grid-template-rows : auto ;
+    Height :auto ;
+  }
+
+  .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6 {
+    Grid-column : auto ;
+    background-size: cover;
+    background-position: center;
+    Grid-row : auto ;
+    
+  }
+
+  .grid_1{
+     
+  }
+
+  /* FOOTER */
+  Footer {
+    Flex-direction : column ;
+    Text-align : center ;
+    Margin : 20px ;
+    Gap : 10px ;
+  }
+
+  #chevron {
+    Margin-top : 0 ;
+  }
+}
+
+
+
+
